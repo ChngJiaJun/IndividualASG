@@ -1,0 +1,417 @@
+<html>
+
+<head>
+    <title>Movie City Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="content1.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <link rel="icon" href="images/icon.png">
+</head>
+
+<body>
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-card" id="myNavbar">
+            <a href="#home" class="w3-bar-item w3-button w3-wide"><strong>MOVIE CITY</strong></a>
+            <div class="w3-right w3-hide-small">
+                <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-question-circle"></i>ABOUT</a>
+                <a href="content2.html" class="w3-bar-item w3-button"><i class="fa fa-film"></i> MOVIES</a>
+                <a href="#cinema" class="w3-bar-item w3-button"><i class="fa fa-video-camera"></i> CINEMA</a>
+                <a href="content5.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> AUTHOR</a>
+                <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+            </div>
+
+
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+                onclick="w3_open()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+
+
+    <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+        <img class=logo src="images/logo.png" alt="logo">
+        <div class="w3-display-left w3-text-white" style="padding:48px">
+            <span class="w3-jumbo w3-hide-small" style="font-family:'Times New Roman', Times, serif">Welcome to Movie City</span><br>
+            <span id=span class="w3-xxlarge w3-hide-large w3-hide-medium">Lives in the Movie</span><br>
+            <span class="w3-large">Watch any movie in this City of Movies.</span>
+            <p><a href="content2.html" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Watch Movies Now</a></p>
+        </div>
+    </header>
+
+
+    <!-- The best movie experience -->
+    <div class="w3-container w3-light-grey" style="padding:128px 16px">
+        <div class="w3-row-padding">
+            <div class="w3-col m6">
+                <div class="bmx">
+                    <h1><b>The Best Movie Experience</b></h1>
+                    <br>
+                    <p style="font-size: large;">Imagine that you walk into the theater and see that the next showing of
+                        the movie you want is in ten minutes! So, normally in this scenario, you will be likely to miss
+                        the start of the movie and then be lost for the entire duration of this ‘award winning film’.
+                    </p>
+                    <p style="font-size: large;">With online buying ticket using Movie City, your excitement comes to a
+                        screeching halt as find your way to the end of a long line of other passengers. </p>
+                    <br>
+                    <ul type="square">
+                        <h4>
+                            <!-- dics,square,circle -->
+                            <li>Shorter Wait Times</li>
+                            <li>Improved Guest Experience</li>
+                            <li>Operational Efficiency</li>
+                            <li>Easier concession coordination.</li>
+                        </h4>
+                    </ul>
+                    <br>
+                    <p><a href="content4.html" class="w3-button w3-black"><i class="fa fa-th"> </i>Download Our App</a></p>
+                </div>
+            </div>
+            <div class="w3-col m6">
+                <div class="cinema">
+                    <img class="w3-image w3-round-large" src="images/cinema.jpg" alt="Cinema">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Promo Section "Statistics" -->
+    <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+        <div class="w3-quarter">
+            <span class="w3-xxlarge">21+</span>
+            <br>Cinemas
+        </div>
+        <div class="w3-quarter">
+            <span class="w3-xxlarge">55+</span>
+            <br>Projects Done
+        </div>
+        <div class="w3-quarter">
+            <span class="w3-xxlarge">150000+</span>
+            <br>Active Users
+        </div>
+        <div class="w3-quarter">
+            <span class="w3-xxlarge">200000+</span>
+            <br>Tickets Sold per day
+        </div>
+    </div>
+
+    <!-- Work Section -->
+    <div class="w3-container" style="padding:128px 16px" id="cinema">
+        <h3 class="w3-center">COLLABORATION WITH:</h3>
+        <p class="w3-center w3-large">The popular cinema in your town!</p>
+        <div class="w3-row-padding" style="margin-top:64px">
+            <div class="cimage">
+                <div class="w3-col l3 m6">
+                    <img src="images/cinemaa/tgv.jpg" style="width:100% " onclick="onClick(this)"
+                        class="w3-hover-opacity" alt="TGV Cinema">
+                </div>
+                <div class="w3-col l3 m6">
+                    <img src="images/cinemaa/gsc.jpg" style="width:100%" onclick="onClick(this)"
+                        class="w3-hover-opacity" alt="GSC Cinema">
+                </div>
+                <div class="w3-col l3 m6">
+                    <img src="images/cinemaa/mbo.jpg" style="width:100%" onclick="onClick(this)"
+                        class="w3-hover-opacity" alt="MBO Cinema">
+                </div>
+                <div class="w3-col l3 m6">
+                    <img src="images/cinemaa/mmc.jpg" style="width:100%" onclick="onClick(this)"
+                        class="w3-hover-opacity" alt="MMCineplex Cinema">
+                </div>
+            </div>
+        </div>
+
+        <div class="w3-row-padding w3-section">
+            <div class="cimage">
+                <div class="w3-col l3 m6">
+                    <img src="images/cinemaa/ca.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                        alt="Cathay Cinema">
+                </div>
+                <div class="w3-col l3 m6">
+                    <img src="images/cinemaa/wan.jpg" style="width:100%" onclick="onClick(this)"
+                        class="w3-hover-opacity" alt="Wanda Cinema">
+                </div>
+                <div class="w3-col l3 m6">
+                    <img src="images/cinemaa/cnw.jpeg" style="width:100%" onclick="onClick(this)"
+                        class="w3-hover-opacity" alt="Cineworld Cinema">
+                </div>
+                <div class="w3-col l3 m6">
+                    <img src="images/cinemaa/emc.png" style="width:100%" onclick="onClick(this)"
+                        class="w3-hover-opacity" alt="Emperor Cinema">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright"
+            title="Close Modal Image">×</span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image">
+            <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="w3-container w3-light-grey w3-padding-64">
+        <div class="w3-row-padding">
+            <div class="w3-col m6">
+                <div class="cus">
+                    <h3>Customer Review</h3>
+                    <p>Years ago, we must queue up for a long line to wait for our turn and it could be quiet
+                        frustrating
+                        if there is a new movie released and we must wait for about half an hours to buy ticket. But now
+                        the
+                        queue up process is no more.</p>
+                    <p> We are able to order and receive our ticket more efficiently without missing one moment of the
+                        feature film. It goes without saying that shorter wait times almost always directly correlate
+                        with improved guest experiences</p>
+                </div>
+            </div>
+            <div class="w3-col m6">
+                <p class="w3-wide"><i class="fa fa-cogs"></i>Efficiency</p>
+                <div class="w3-grey">
+                    <div class="w3-container w3-dark-grey w3-center" style="width:90%">90%</div>
+                </div>
+                <br>
+                <p class="w3-wide"><i class="fa fa-wrench"></i>Support</p>
+                <div class="w3-grey">
+                    <div class="w3-container w3-dark-grey w3-center" style="width:85%">85%</div>
+                </div>
+                <br>
+                <p class="w3-wide"><i class="fa fa-money"></i>Price</p>
+                <div class="w3-grey">
+                    <div class="w3-container w3-dark-grey w3-center" style="width:75%">75%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="w3-container" style="padding:128px 16px" id="about">
+        <h3 class="w3-center">ABOUT THE COMPANY</h3>
+        <p class="w3-center w3-large">Key features of our company</p>
+        <div class="w3-row-padding w3-center" style="margin-top:64px">
+            <div class="w3-quarter">
+                <i class="fa fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+                <p class="w3-large">Responsive</p>
+                <p>Our duty is to let the people book their movie ticket easily online and have a great movie
+                    experience.</p>
+            </div>
+            <div class="w3-quarter">
+                <i class="fa fa-heart w3-margin-bottom w3-jumbo"></i>
+                <p class="w3-large">Passion</p>
+                <p>We demand the convenience of movie lovers letting movies become part of their life.</p>
+            </div>
+            <div class="w3-quarter">
+                <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+                <p class="w3-large">Goal</p>
+                <p>Our goal is to let anyone enjoy the best movie experience with smooth ticketing process.</p>
+            </div>
+            <div class="w3-quarter">
+                <i class="fa fa-cog w3-margin-bottom w3-jumbo"></i>
+                <p class="w3-large">Support</p>
+                <p>We provides professional support in any technical problem to helps the user solve their problem.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Members Section -->
+    <div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="member">
+        <h3>Become A Member</h3>
+        <p class="w3-large">Choose Member Rank</p>
+        <div class="w3-row-padding" style="margin-top:64px">
+            <div class="w3-third w3-section">
+                <ul class="w3-ul w3-white w3-hover-shadow">
+                    <li class="w3-black w3-xlarge w3-padding-32">Basic</li>
+                    <li class="w3-padding-16"> Ticket Discount Vouncher</li>
+                    <li class="w3-padding-16"> 100 Member Point</li>
+                    <li class="w3-padding-16"> 1 Popcorn Vouncher</li>
+                    <li class="w3-padding-16">
+                        <h2 class="w3-wide">$ 20</h2>
+                        <span class="w3-opacity">per month</span>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="w3-third">
+                <ul class="w3-ul w3-white w3-hover-shadow">
+                    <li class="w3-red w3-xlarge w3-padding-48">VIP</li>
+                    <li class="w3-padding-16"> 3 Free Ticket per Month</li>
+                    <li class="w3-padding-16"> 500 Member Point </li>
+                    <li class="w3-padding-16"> 5 Popcorn Vouncher</li>
+                    <li class="w3-padding-16"> Limited VIP Member Card</li>
+                    <li class="w3-padding-16">
+                        <h2 class="w3-wide">$ 80</h2>
+                        <span class="w3-opacity">per month</span>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="w3-third w3-section">
+                <ul class="w3-ul w3-white w3-hover-shadow">
+                    <li class="w3-black w3-xlarge w3-padding-32">Premium</li>
+                    <li class="w3-padding-16"> 1 Free Ticket per Month</li>
+                    <li class="w3-padding-16"> 250 Member Point Reward</li>
+                    <li class="w3-padding-16"> 3 Popcorn Vouncher</li>
+                    <li class="w3-padding-16">
+                        <h2 class="w3-wide">$ 50</h2>
+                        <span class="w3-opacity">per month</span>
+                    </li>
+                    <li class="w3-light-grey w3-padding-24">
+                        <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+        <h3 class="w3-center">CONTACT</h3>
+        <p class="w3-center w3-large">Lets get in touch. Send us a message:</p>
+        <div style="margin-top:48px">
+            <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Johor, MS</p>
+            <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +00 151515</p>
+            <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mail@mail.com</p>
+            <br>
+            <form action="/action_page.php" target="_blank">
+                <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+                <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
+                <br>
+                <p>
+                    <button class="w3-button w3-black" type="submit">
+                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                    </button>
+                </p>
+            </form>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small unique-color-dark">
+
+        <div style="background-color: #000000;">
+            <div class="container">
+
+                <div class="row py-4 d-flex align-items-center">
+
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0">Get connected with us on social networks!</h6>
+                    </div>
+
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                        <a class="fb-ic" href="https://www.facebook.com/moviecity.ga">
+                            <i class="fa fa-facebook-f white-text mr-4"> </i>
+                        </a>
+                        <a class="tw-ic" href="https://twitter.com/mcntweets">
+                            <i class="fa fa-twitter white-text mr-4"> </i>
+                        </a>
+                        <a class="gplus-ic" href="https://www.google.com/movies/about/">
+                            <i class="fa fa-google-plus white-text mr-4"> </i>
+                        </a>
+                        <a class="li-ic" href="https://www.google.com/movies/about/">
+                            <i class="fa fa-linkedin white-text mr-4"> </i>
+                        </a>
+                        <a class="ins-ic" href="https://www.instagram.com/movie_city.1/">
+                            <i class="fa fa-instagram white-text"> </i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="container text-center text-md-left mt-5">
+
+            <div class="row mt-3">
+
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                    <h6 class="text-uppercase font-weight-bold">Movie City</h6>
+                    <hr>
+                    </hr>
+                    <p>MovieCity is published by a guy that like to watch movies in 2020.This guy is a student that
+                        study in Southern University College. This page is part of his assignment </p>
+
+                </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">Cinema</h6>
+                    <hr>
+                    </hr>
+                    <p>
+                        <a href="#!">TGV</a>
+                    </p>
+                    <p>
+                        <a href="#!">MBO</a>
+                    </p>
+                    <p>
+                        <a href="#!">GSC</a>
+                    </p>
+                    <p>
+                        <a href="#!">MMCineplex</a>
+                    </p>
+
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">Useful links</h6>
+                    <hr>
+                    </hr>
+                    <p>
+                        <a href="#!">Your Account</a>
+                    </p>
+                    <p>
+                        <a href="#!">Become an Affiliate</a>
+                    </p>
+                    <p>
+                        <a href="#!">Movie Rates</a>
+                    </p>
+                    <p>
+                        <a href="#!">Help</a>
+                    </p>
+
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                    <hr>
+                    </hr>
+                    <p>
+                        <i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
+                    <p>
+                        <i class="fa fa-envelope mr-3"></i> info@example.com</p>
+                    <p>
+                        <i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
+                    <p>
+                        <i class="fa fa-print mr-3"></i> + 01 234 567 89</p>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a href="file:///C:/xampp/htdocs/ASG/index.html"> MovieCity.com</a>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

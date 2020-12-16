@@ -1,0 +1,249 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image:linear-gradient(rgba(71, 218, 255, 0.8),rgba(0, 3, 196, 0.8)),url(images/profile/pro-bcg.jpg);
+  background-size: cover;
+}
+.note
+{
+    text-align: center;
+    height: 80px;
+    font-size: x-large;
+    font-family: 'Century Gothic',sans-serif;
+    color: #fff;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.box{
+  width: 450px;
+  background: rgba(195, 251, 255, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin-left:30px;
+  margin-top:30px;
+  border-radius: 20px;
+  position: left;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+  
+.box-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+  color: #b9b9b9;
+}
+
+.box2{
+  width: 800px;
+  background: rgba(195, 251, 255, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin-left:30px;
+  border-radius: 20px;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+.box2 table {border: 1px solid #000000;border-collapse: collapse; margin: 0 auto;  padding: 0px; color:white}
+
+.box2 th {text-align: center;padding: 8px;border: 3px solid #000000; color:#FFFFFF; font-weight:bold; text-align:center}
+.box2 td{color: white;padding: 8px;border: 3px solid #000000;}
+.box2 tr{color:#ffffff;text-align:center;}
+.first{background: #00115a; }
+.second{width: 450px; }
+
+.box41 h1,.box42 h1{
+  margin-top:0;
+  margin-bottom:20px;
+}
+
+.box41 img,.box42 img{
+  width:100%;
+  height:auto;
+}
+
+.box3,.box41,.box42{
+  width: auto;
+  background: rgba(195, 251, 255, 0.4);
+  padding: 40px;
+  text-align: center;
+  margin:30px ;
+  border-radius: 20px;
+  position: left;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+
+/* Slideshow container */
+.mySlides {
+  display: none
+}
+
+.box3 img {
+  vertical-align: middle;
+  height:500px;
+  width:auto;
+  max-width: 1100px;
+    position: relative;
+    margin: auto;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -500px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.prev {
+  border-radius: 3px 0 0 3px;
+  float:left;
+}
+
+.next {
+    border-radius: 3px 0 0 3px;
+    float:right;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+  margin-top:20px;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+}
+.slide {
+    color: #ffffff;
+    font-size: 30px;
+    font-style:bold;
+    text-align: center;
+}
+.box41 p,.box42 p{
+  padding:15px;
+  margin:auto;
+  width:800px;
+  text-align: center;
+}
+
+.paragraph{
+  margin:auto;
+  width:800px;
+  text-align: center;
+}
+
+.numbertext {
+    color: #ffffffaf;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    right:0;
+}
+
+.dot {
+  top:0px;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.0s;
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+
+  
+  
+  
+  
+  
+
+  
+  
